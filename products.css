@@ -28,6 +28,11 @@ nav a{
     text-decoration: none; 
 }
 
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
 .products{
     width: 940px;
     margin: 0 auto;
@@ -43,6 +48,7 @@ nav a{
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid black;
+    border-radius: 10px;
 }
 
 .products h2{
