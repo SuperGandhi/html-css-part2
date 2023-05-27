@@ -51,9 +51,21 @@ nav a:hover{
     border-radius: 10px;
 }
 
+.products li:hover{
+    border-color: blue;
+}
+
+.products li:active{
+    border-color: aqua;
+}
+
 .products h2{
     font-size: 30px;
     font-weight: bold;
+}
+
+.products li:hover h2{
+    font-size: 33px;
 }
 
 .description{
@@ -66,8 +78,17 @@ nav a:hover{
     margin-top: 10px;
 }
 
+footer{
+    text-align: center;
+    background: url(assets/bg.jpg);
+    padding: 40px;
+}
 
-
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
 
 
 
